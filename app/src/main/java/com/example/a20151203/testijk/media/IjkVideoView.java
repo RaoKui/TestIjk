@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package media;
+package com.example.a20151203.testijk.media;
 
 import android.annotation.TargetApi;
 import android.content.Context;
@@ -451,7 +451,7 @@ public class IjkVideoView extends FrameLayout implements MediaController.MediaPl
                         } else if (!isPlaying() &&
                                 (seekToPosition != 0 || getCurrentPosition() > 0)) {
                             if (mMediaController != null) {
-                                // Show the media controls when we're paused into a video and make 'em stick.
+                                // Show the com.example.a20151203.testijk.media controls when we're paused into a video and make 'em stick.
                                 mMediaController.show(0);
                             }
                         }
@@ -557,7 +557,7 @@ public class IjkVideoView extends FrameLayout implements MediaController.MediaPl
             };
 
     /**
-     * Register a callback to be invoked when the media file
+     * Register a callback to be invoked when the com.example.a20151203.testijk.media file
      * is loaded and ready to go.
      *
      * @param l The callback that will be run
@@ -567,7 +567,7 @@ public class IjkVideoView extends FrameLayout implements MediaController.MediaPl
     }
 
     /**
-     * Register a callback to be invoked when the end of a media file
+     * Register a callback to be invoked when the end of a com.example.a20151203.testijk.media file
      * has been reached during playback.
      *
      * @param l The callback that will be run
@@ -666,7 +666,7 @@ public class IjkVideoView extends FrameLayout implements MediaController.MediaPl
     }
 
     /*
-     * release the media player in any state
+     * release the com.example.a20151203.testijk.media player in any state
      */
     public void release(boolean cleartargetstate) {
         if (mMediaPlayer != null) {

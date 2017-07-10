@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package media;
+package com.example.a20151203.testijk.media;
 
 import android.graphics.SurfaceTexture;
 import android.support.annotation.NonNull;

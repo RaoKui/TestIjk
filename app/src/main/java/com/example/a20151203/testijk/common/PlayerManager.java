@@ -22,8 +22,8 @@ import android.widget.TextView;
 
 import com.example.a20151203.testijk.R;
 
-import media.IRenderView;
-import media.IjkVideoView;
+import com.example.a20151203.testijk.media.IRenderView;
+import com.example.a20151203.testijk.media.IjkVideoView;
 import tv.danmaku.ijk.media.player.IMediaPlayer;
 import tv.danmaku.ijk.media.player.IjkMediaPlayer;
 

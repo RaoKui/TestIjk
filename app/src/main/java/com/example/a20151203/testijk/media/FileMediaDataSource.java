@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package media;
+package com.example.a20151203.testijk.media;
 
 import java.io.File;
 import java.io.IOException;
